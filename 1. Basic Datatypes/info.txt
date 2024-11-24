@@ -1,0 +1,17 @@
+Integer
+Floating
+String
+Boolean
+None
+
+Integer - Eg : 1, 2, 0, -1, -2, 463456365436434, -363666723, and so on
+
+Floating - Eg : 1.2, 2.1, -1.1, 2.6346334, -66.34877384384, 0.0 and so on
+
+String - "", ''
+         'c', "debug", 'paradox', "nffjdfdfdfdf"
+         "1", '0.5', "hejfdfj536dfjdffddf6.5"
+
+Boolean - True(1), False(0)
+
+None : No value / Nothing
