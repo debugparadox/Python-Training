@@ -1,0 +1,79 @@
+1. Converting a datatype to an Integer datatype
+    int(arg1) -> arg1 being converted to Integer datatype
+    a) Converting Float to Int
+        Eg: int(14.56) -> 14
+            int(-95.5643) -> -95
+            int(44.01) -> 44
+            int(0.0) -> 0
+
+    b) Converting String to Int
+        Condition : Can only convert string to integer if all the characters in the string are numeric.
+        Eg: int("123456") -> 123456
+            int("debug paradox") -> ValueError
+            int("debugparadox12345") -> ValuError
+            int("1") -> 1
+            int("986") -> 986
+            int("12.96") -> ValuError // Any string which represents a decimal number cannot be converted to an integer
+
+    c) Converting Boolean to Int
+       int(True) -> 1
+       int(False) -> 0
+
+2. Converting a datatype to an Float datatype
+    float(arg1) -> arg1 being converted to Float datatype.
+    a) Converting Int to Float
+        Eg: float(25) -> 25.0
+            float(-26) -> 26.0
+            float(0) -> 0.0
+
+    b) Converting String to Float
+       Condition : Can only convert string to integer if all the characters in the string are numeric.
+       Eg: float("25.55") -> 25.55
+           float("-26.789") -> -26.789
+           float("25") -> 25.0
+           float("debug paradox") -> value error
+           float("debug paradox123") -> value error
+
+    c) Converting Boolean to Float
+        Eg: float(True) -> 1.0
+            float(False) -> 0.0
+
+3) Converting a datatype to an String datatype
+   str(arg1) -> arg1 being converted into String datatype
+   a) Converting Int to String
+      Eg: str(23) -> "23"
+          str(0) -> "0"
+          str(-2345) -> "-2345"
+          str(-45678) -> "-45678"
+
+    b) Converting Float to String
+       Eg: str(0.0) -> "0.0"
+           str(4.7892) -> "4.7892"
+           str(-55.687) -> "-55.687"
+           str(111.989) -> "111.989"
+
+    c) Converting Boolean to String
+       Eg: str(True) -> "True"
+           str(False) -> "False"
+
+4) Converting a datatype to an Boolean datatype
+   bool(arg1) -> arg1 being converted into Boolean datatype
+   a) Converting Int to Boolean
+        Condition : Any non-zero integer (+ve or -ve) yields to True. Integer 0 yields to False
+        Eg: bool(123) -> True
+            bool(-123) -> True
+            bool(0) -> False
+
+    b) Converting Float to Boolean
+        Condition : Any non-zero floating number (+ve or -ve) yields to True. Float 0.0 yields to False
+        Eg: bool(12.33) -> True
+            bool(-333.444) -> True
+            bool(0.0) -> False
+
+    c) Converting String to Boolean
+        Condition : Any non-empty string is converted to True, whereas empty string is convereted to False
+        Eg: bool("debug paradox") -> True
+            bool("23.3") -> True
+            bool("a") -> True
+            bool("") -> False
+
